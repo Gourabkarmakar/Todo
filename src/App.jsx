@@ -22,7 +22,7 @@ function App() {
     <>
       <div className="position-relative">
         <div
-          className="position-sticky top-0 start-0 z-3 py-3"
+          className="position-sticky top-0 start-0 z-3 py-3 px-2"
           style={{ backdropFilter: "blur(10px)" }}
         >
           <h1>Todo App</h1>
