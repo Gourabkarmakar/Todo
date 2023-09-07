@@ -22,7 +22,7 @@ function App() {
     <>
       <div className="position-relative">
         <div
-          className="container position-sticky top-0 start-0 z-3 py-3"
+          className="position-sticky top-0 start-0 z-3 py-3"
           style={{ backdropFilter: "blur(10px)" }}
         >
           <h1>Todo App</h1>
@@ -57,6 +57,8 @@ function App() {
             </form>
           </div>
         </div>
+
+
         <div className="d-flex flex-wrap flex-row justify-content-center">
           {data.length > 0 ? (
             data.map((i) => <TodoList td={i.todo} key={i.id} data_id={i.id} />)
